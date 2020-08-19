@@ -16,3 +16,13 @@ console.log(nodeFirst);
 global.console.log(nodeFirst);
 
 // run node global.js => gives Hello World ! Hello All
+
+console.log(__dirname);
+
+// run node global.js => gives ../../Desktop/NodeJs/src
+// Gives the Path of the directory
+
+console.log(__filename);
+
+// run node global.js => gives ../../Desktop/NodeJs/src/global.js
+// Gives the Path of the file
