@@ -23,3 +23,18 @@
 
     // node process Ganesh Madhu
     // => gives  My Name is  Ganesh Madhu
+
+    const fetch = flag =>  {
+
+        let index = process.argv.indexOf(flag) + 1;
+
+        return process.argv[index];
+    };
+
+    const greetingWord = fetch("--greeting");
+    const name = fetch("--name");
+
+    console.log(`${greetingWord} ${name}`);
+
+    // node process --greeting Hi --name Ganesh
+    // => Gives Hi Ganesh
