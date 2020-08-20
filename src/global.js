@@ -1,5 +1,7 @@
 
 
+const path = require("path");
+
 let nodeFirst = "Hello World ! Hello All";
 
 console.log(nodeFirst);
@@ -26,3 +28,9 @@ console.log(__filename);
 
 // run node global.js => gives ../../Desktop/NodeJs/src/global.js
 // Gives the Path of the file
+
+
+console.log(`The file name is ${path.basename(__filename)}`);
+
+
+// run node global.js => gives The file name is global.js
