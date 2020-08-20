@@ -15,3 +15,11 @@
     console.log(process.versions.node);
 
     // gives => 10.16.3 --> version of node
+
+
+    const [, , firstName, lastName] = process.argv;
+
+    console.log(`My Name is  ${firstName} ${lastName}`);
+
+    // node process Ganesh Madhu
+    // => gives  My Name is  Ganesh Madhu
