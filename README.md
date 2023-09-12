@@ -22,3 +22,18 @@ npm -v
 -> Installing Modules using NPM
 
 -> Callback?
+
+-> Event-Driven Programming
+
+->EventEmitter Class
+
+-> Creating Buffers
+
+-> Streams?
+
+-> Synchronous vs Asynchronous
+
+-> Web Server?
+
+-> Web Application Architecture
+
